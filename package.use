@@ -1,0 +1,13 @@
+# Global
+*/* wayland vulkan pipewire pulseaudio wifi screencast
+*/* -alsa -X -bluetooth
+
+# Rust
+dev-lang/rust system-llvm
+
+# Hyperland (XWayland)
+gui-wm/hyprland X
+media-libs/libepoxy X
+media-libs/libglvnd X
+media-libs/mesa X
+x11-libs/libdrm video_cards_radeon
