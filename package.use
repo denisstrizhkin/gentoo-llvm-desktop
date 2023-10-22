@@ -1,6 +1,6 @@
 # Global
 */* wayland vulkan pipewire pulseaudio screencast
-*/* -telemetry -alsa -X -bluetooth
+*/* -man -doc -gtk-doc -telemetry -alsa -X -bluetooth
 
 # Rust
 dev-lang/rust system-llvm
@@ -11,6 +11,9 @@ media-libs/libepoxy X
 media-libs/libglvnd X
 media-libs/mesa X
 x11-libs/libdrm video_cards_radeon
+
+# Firmware
+sys-kernel/linux-firmware compress-zstd
 
 # Pipewire
 media-sound/pulseaudio -daemon
