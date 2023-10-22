@@ -1,0 +1,9 @@
+app-eselect/eselect-repository
+app-portage/cpuid2cpuflags
+app-portage/eix
+app-portage/gentoolkit
+app-portage/pfl
+app-shells/bash-completion
+app-text/ansifilter
+app-text/wgetpaste
+dev-vcs/git

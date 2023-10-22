@@ -1,6 +1,6 @@
 # Global
-*/* wayland vulkan pipewire pulseaudio wifi screencast
-*/* -alsa -X -bluetooth
+*/* wayland vulkan pipewire pulseaudio screencast
+*/* -telemetry -alsa -X -bluetooth
 
 # Rust
 dev-lang/rust system-llvm
@@ -11,3 +11,10 @@ media-libs/libepoxy X
 media-libs/libglvnd X
 media-libs/mesa X
 x11-libs/libdrm video_cards_radeon
+
+# Pipewire
+media-sound/pulseaudio -daemon
+media-video/pipewire sound-server
+
+# Required by www-client/firefox-118.0.2::gentoo[system-libvpx]
+media-libs/libvpx postproc
