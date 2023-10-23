@@ -15,9 +15,18 @@ x11-libs/libdrm video_cards_radeon
 # Firmware
 sys-kernel/linux-firmware compress-zstd
 
+# Kernel
+# sys-kernel/gentoo-kernel savedconfig
+
+# NetworkManager
+net-misc/networkmanager iwd wifi -wext -ppp -modemmanager
+
 # Pipewire
 media-sound/pulseaudio -daemon
 media-video/pipewire sound-server
 
 # Required by www-client/firefox-118.0.2::gentoo[system-libvpx]
 media-libs/libvpx postproc
+
+# Required by app-portage/pfl-3.2.1::gentoo[network-cron]
+sys-apps/util-linux caps
