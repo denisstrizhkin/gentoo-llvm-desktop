@@ -1,3 +1,9 @@
 app-admin/stow
+app-admin/sudo
+app-editors/neovim
+dev-lang/rust
+net-misc/networkmanager
 sys-boot/efibootmgr
+sys-fs/btrfs-progs
+sys-kernel/gentoo-kernel
 sys-kernel/linux-firmware
