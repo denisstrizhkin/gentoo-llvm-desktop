@@ -1,6 +1,16 @@
+app-misc/fastfetch
 app-misc/tmux
 gui-apps/foot
+gui-apps/grim
+gui-apps/slurp
+gui-apps/wofi
 gui-wm/hyprland
+media-fonts/terminus-font
+media-libs/libsixel
 media-sound/pulseaudio
+media-sound/pulsemixer
 media-video/pipewire
+net-im/discord
+sys-apps/flatpak
 www-client/firefox
+x11-misc/xdg-user-dirs

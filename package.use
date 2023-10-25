@@ -30,3 +30,9 @@ media-libs/libvpx postproc
 
 # Required by app-portage/pfl-3.2.1::gentoo[network-cron]
 sys-apps/util-linux caps
+
+# required by net-print/cups-filters-1.28.17-r2::gentoo[postscript]
+app-text/ghostscript-gpl cups
+
+# required by gnome-base/gnome-keyring-42.1-r2::gentoo
+app-crypt/gcr gtk
