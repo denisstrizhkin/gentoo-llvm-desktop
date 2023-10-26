@@ -1,9 +1,13 @@
 app-misc/fastfetch
+app-misc/nwg-look
 app-misc/tmux
+app-misc/zellij
 gui-apps/foot
 gui-apps/grim
+gui-apps/qt6ct
 gui-apps/slurp
 gui-apps/wofi
+gui-libs/xdg-desktop-portal-hyprland
 gui-wm/hyprland
 media-fonts/terminus-font
 media-libs/libsixel
@@ -11,6 +15,8 @@ media-sound/pulseaudio
 media-sound/pulsemixer
 media-video/pipewire
 net-im/discord
+net-p2p/qbittorrent
 sys-apps/flatpak
 www-client/firefox
+x11-misc/qt5ct
 x11-misc/xdg-user-dirs

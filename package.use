@@ -12,6 +12,17 @@ media-libs/libglvnd X
 media-libs/mesa X
 x11-libs/libdrm video_cards_radeon
 
+# required by dev-qt/qtwayland-6.6.0::gentoo
+dev-qt/qtbase opengl
+# required by x11-misc/qt5ct-1.8::gentoo
+# required by dev-qt/qtwayland-5.15.11::gentoo
+# required by dev-qt/qtx11extras-5.15.11::gentoo
+dev-qt/qtgui egl X dbus
+# required by dev-qt/qtgui-5.15.11::gentoo[X]
+x11-libs/libxkbcommon X
+# required by dev-qt/qttranslations-6.6.0::gentoo
+dev-qt/qttools opengl
+
 # Firmware
 sys-kernel/linux-firmware compress-zstd
 
