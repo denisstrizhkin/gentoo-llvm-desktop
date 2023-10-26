@@ -47,3 +47,6 @@ app-text/ghostscript-gpl cups
 
 # required by gnome-base/gnome-keyring-42.1-r2::gentoo
 app-crypt/gcr gtk
+
+# udev ? (alsa)
+media-libs/libcanberra alsa

@@ -11,7 +11,6 @@ gui-libs/xdg-desktop-portal-hyprland
 gui-wm/hyprland
 media-fonts/terminus-font
 media-libs/libsixel
-media-sound/pulseaudio
 media-sound/pulsemixer
 media-video/pipewire
 net-im/discord
@@ -20,3 +19,5 @@ sys-apps/flatpak
 www-client/firefox
 x11-misc/qt5ct
 x11-misc/xdg-user-dirs
+mail-client/thunderbird
+app-editors/vscodium

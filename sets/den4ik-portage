@@ -7,3 +7,4 @@ app-shells/bash-completion
 app-text/ansifilter
 app-text/wgetpaste
 dev-vcs/git
+dev-util/pkgdev
