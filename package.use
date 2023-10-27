@@ -12,6 +12,12 @@ media-libs/libglvnd X
 media-libs/mesa X
 x11-libs/libdrm video_cards_radeon
 
+# Noto fonts for maximum characters support
+media-fonts/noto cjk
+
+# MPV 
+media-video/mpv cli
+
 # required by dev-qt/qtwayland-6.6.0::gentoo
 dev-qt/qtbase opengl
 # required by x11-misc/qt5ct-1.8::gentoo
