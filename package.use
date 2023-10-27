@@ -3,7 +3,7 @@
 */* -man -doc -gtk-doc -telemetry -alsa -X -bluetooth
 
 # Rust
-dev-lang/rust system-llvm
+dev-lang/rust system-llvm rust-analyzer rustfmt
 
 # Hyperland (XWayland)
 gui-wm/hyprland X
