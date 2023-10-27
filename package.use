@@ -11,6 +11,8 @@ media-libs/libepoxy X
 media-libs/libglvnd X
 media-libs/mesa X
 x11-libs/libdrm video_cards_radeon
+x11-libs/gtk+ X
+x11-libs/cairo X
 
 # Noto fonts for maximum characters support
 media-fonts/noto cjk
@@ -56,3 +58,6 @@ app-crypt/gcr gtk
 
 # udev ? (alsa)
 media-libs/libcanberra alsa
+
+# VSCodium
+app-text/xmlto text
