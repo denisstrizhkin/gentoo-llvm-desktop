@@ -1,5 +1,3 @@
-app-misc/fastfetch
-app-misc/nwg-look
 app-misc/tmux
 app-misc/zellij
 gui-apps/foot
@@ -21,3 +19,7 @@ x11-misc/qt5ct
 x11-misc/xdg-user-dirs
 mail-client/thunderbird
 app-editors/vscodium
+app-text/zathura
+app-text/zathura-pdf-mupdf
+media-fonts/noto
+net-misc/ytfzf
