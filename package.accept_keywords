@@ -1,2 +1,3 @@
 media-libs/mesa **
 gui-wm/hyprland **
+gui-libs/xdg-desktop-portal-hyprland **

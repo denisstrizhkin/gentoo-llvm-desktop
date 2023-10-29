@@ -8,3 +8,5 @@ app-text/ansifilter
 app-text/wgetpaste
 dev-vcs/git
 dev-util/pkgdev
+app-admin/eclean-kernel
+app-portage/smart-live-rebuild
