@@ -19,12 +19,18 @@ media-libs/mesa X
 x11-libs/libdrm video_cards_radeon
 x11-libs/gtk+ X
 x11-libs/cairo X
-
+ 
 # Noto fonts for maximum characters support
 media-fonts/noto cjk
 
 # MPV 
 media-video/mpv cli
+
+# imv
+media-gfx/imv gif jpeg
+
+# ImageMagick
+media-gfx/imagemagick webp
 
 # cmus
 media-sound/cmus opus mp4 aac
@@ -33,19 +39,20 @@ media-sound/cmus opus mp4 aac
 net-misc/remmina vnc
 dev-libs/libdbusmenu gtk3
 
+# transmission
+net-p2p/transmission cli
+
 # qemu virt-manager
 sys-apps/dbus X
 net-libs/gnutls pkcs11 tools
 app-emulation/libvirt pcap numa fuse
 app-emulation/virt-manager gui
-net-dns/dnsmasq ipv6 script
 app-emulation/qemu spice usb usbredir
 net-misc/spice-gtk usbredir
 
 # qt5ct qt6ct
 dev-qt/qtbase opengl
 dev-qt/qtgui egl X dbus
-x11-libs/libxkbcommon X
 dev-qt/qttools opengl
 
 # Firmware
