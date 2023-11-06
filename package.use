@@ -1,6 +1,7 @@
 # Global
 */* wayland vulkan pipewire pulseaudio screencast
 */* -man -doc -gtk-doc -telemetry -alsa -X -bluetooth
+*/* firewalld nftables -iptables
 
 # Rust
 dev-lang/rust system-llvm rust-analyzer rustfmt rust-src system-bootstrap
@@ -10,6 +11,9 @@ sys-process/procps modern-top
 
 # Fix fastfetch seg fault
 app-misc/fastfetch pci
+
+# nftables
+net-firewall/nftables json python
 
 # Hyperland (XWayland)
 gui-wm/hyprland X
@@ -27,13 +31,13 @@ media-fonts/noto cjk
 media-video/mpv cli
 
 # imv
-media-gfx/imv gif jpeg
+media-gfx/imv gif jpeg png heif svg
 
-# ImageMagick
-media-gfx/imagemagick webp
+# GraphicsMagick
+media-gfx/graphicsmagick webp jpeg
 
 # cmus
-media-sound/cmus opus mp4 aac
+media-sound/cmus opus mp4 aac ffmpeg
 
 # Remmina
 net-misc/remmina vnc
@@ -45,10 +49,17 @@ net-p2p/transmission cli
 # qemu virt-manager
 sys-apps/dbus X
 net-libs/gnutls pkcs11 tools
-app-emulation/libvirt pcap numa fuse
+app-emulation/libvirt pcap numa fuse virt-network
 app-emulation/virt-manager gui
 app-emulation/qemu spice usb usbredir
 net-misc/spice-gtk usbredir
+
+# qemu user chroot
+app-emulation/qemu static-user
+dev-libs/glib static-libs
+sys-libs/zlib static-libs
+sys-apps/attr static-libs
+dev-libs/libpcre2 static-libs
 
 # qt5ct qt6ct
 dev-qt/qtbase opengl
