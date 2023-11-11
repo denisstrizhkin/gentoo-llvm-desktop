@@ -46,6 +46,9 @@ dev-libs/libdbusmenu gtk3
 # transmission
 net-p2p/transmission cli
 
+# minetest
+games-action/minetest LUA_SINGLE_TARGET: -* luajit
+
 # qemu virt-manager
 sys-apps/dbus X
 net-libs/gnutls pkcs11 tools

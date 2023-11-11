@@ -1,5 +1,8 @@
 app-admin/stow
 app-admin/sudo
+app-arch/unrar
+app-containers/distrobox
+app-containers/podman
 app-editors/helix
 app-emulation/libvirt
 app-emulation/qemu
@@ -11,8 +14,13 @@ app-text/tree
 dev-lang/rust
 dev-lang/sassc
 dev-python/virtualenv
+dev-util/android-tools
+net-firewall/firewalld
+net-irc/irssi
 net-misc/networkmanager
 net-p2p/transmission
+net-print/cups
+sys-apps/zram-generator
 sys-boot/efibootmgr
 sys-fs/btrfs-progs
 sys-kernel/dracut

@@ -1,12 +1,12 @@
+app-admin/eclean-kernel
 app-eselect/eselect-repository
 app-portage/cpuid2cpuflags
 app-portage/eix
 app-portage/gentoolkit
 app-portage/pfl
+app-portage/smart-live-rebuild
 app-shells/bash-completion
 app-text/ansifilter
 app-text/wgetpaste
-dev-vcs/git
 dev-util/pkgdev
-app-admin/eclean-kernel
-app-portage/smart-live-rebuild
+dev-vcs/git
