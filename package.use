@@ -32,6 +32,10 @@ media-video/mpv cli
 
 # imv
 media-gfx/imv gif jpeg png heif svg
+media-libs/freeimage webp
+
+# OpenCV
+media-libs/opencv ffmpeg
 
 # GraphicsMagick
 media-gfx/graphicsmagick webp jpeg
@@ -45,9 +49,6 @@ dev-libs/libdbusmenu gtk3
 
 # transmission
 net-p2p/transmission cli
-
-# minetest
-games-action/minetest LUA_SINGLE_TARGET: -* luajit
 
 # qemu virt-manager
 sys-apps/dbus X
@@ -90,12 +91,3 @@ sys-apps/util-linux caps
 
 # required by net-print/cups-filters-1.28.17-r2::gentoo[postscript]
 app-text/ghostscript-gpl cups
-
-# required by gnome-base/gnome-keyring-42.1-r2::gentoo
-app-crypt/gcr gtk
-
-# udev ? (alsa)
-media-libs/libcanberra alsa
-
-# VSCodium
-app-text/xmlto text

@@ -1,1 +1,3 @@
 >sys-kernel/gentoo-kernel-6.5.11
+>virtual/dist-kernel-6.5.11
+=media-libs/vips-8.15.0
