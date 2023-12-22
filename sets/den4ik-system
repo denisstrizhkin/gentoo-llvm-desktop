@@ -13,6 +13,7 @@ app-shells/zsh-completions
 app-text/tree
 dev-lang/rust
 dev-lang/sassc
+dev-python/podman-compose
 dev-python/virtualenv
 dev-util/android-tools
 net-firewall/firewalld

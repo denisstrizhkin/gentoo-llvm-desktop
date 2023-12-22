@@ -1,3 +1,4 @@
->sys-kernel/gentoo-kernel-6.5.11
->virtual/dist-kernel-6.5.11
+>sys-kernel/gentoo-kernel-6.6.6
+>virtual/dist-kernel-6.6.6
 =media-libs/vips-8.15.0
+media-video/vlc

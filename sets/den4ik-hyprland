@@ -5,13 +5,10 @@ app-text/zathura-pdf-mupdf
 gui-apps/foot
 gui-apps/grim
 gui-apps/hyprpaper
-gui-apps/qt6ct
 gui-apps/slurp
 gui-apps/wl-clipboard
 gui-apps/wofi
-gui-libs/xdg-desktop-portal-hyprland
 gui-wm/hyprland
-mail-client/thunderbird
 media-fonts/noto
 media-fonts/terminus-font
 media-gfx/graphicsmagick
@@ -24,5 +21,4 @@ net-misc/remmina
 net-misc/ytfzf
 sys-apps/flatpak
 www-client/firefox
-x11-misc/qt5ct
 x11-misc/xdg-user-dirs
